@@ -11,7 +11,7 @@ namespace Kina.Common.Logger
 
         public ILogger Create(string name)
         {
-            return Logger;
+            return Logger; 
         }
         
         public ILogger Create(Type type)
