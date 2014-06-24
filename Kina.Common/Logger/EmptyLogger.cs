@@ -12,7 +12,7 @@ namespace Kina.Common.Logger
             get { return false; }
         }
 
-        public void Debug(object message)
+        public void Debug(object message)   
         {
             throw new Exception("The method or operation is not implemented.");
         }
